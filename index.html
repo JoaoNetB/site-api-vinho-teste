@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/global.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+    <title>WINE.LIST</title>
+</head>
+
+<body>
+
+    <header class="background-page">
+
+        <h1>WINE.LIST</h1>
+
+    </header>
+
+    <main class="content">
+
+        <section class="search">
+            <input type="text" placeholder="Pesquise aqui" class="input-search">
+
+            <div class="filter-input">
+                <h2>Filtrar por:</h2>
+
+                <div class="input-content">
+                    <div class="input-container">
+                        <input type="checkbox" name="Nome" id="name">
+                        <label for="name">Nome</label>
+                    </div>
+                    <div class="input-container">
+                        <input type="checkbox" name="Local" id="location">
+                        <label for="location">Local</label>
+                    </div>
+                    <div class="input-container">
+                        <input type="checkbox" name="Adega" id="winery">
+                        <label for="winery">Adega</label>
+                    </div>
+                    <div class="input-container">
+                        <input type="checkbox" name="Total" id="total" checked="checked">
+                        <label for="total">Total</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="items-container">
+
+        </section>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
