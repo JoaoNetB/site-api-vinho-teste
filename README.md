@@ -1,4 +1,4 @@
-<center><h1>WINI LIST</h1></center>
+<center><h1>WINE LIST</h1></center>
 
 ![Imagem do site](./src/image/image-app.png)
 
