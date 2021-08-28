@@ -160,7 +160,7 @@
 
 .description-item .title h2 {
 
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 300;
 }
 
@@ -170,13 +170,13 @@
 }
 
 .sub-description h2 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
     color: #B1A7A6;
 }
 
 .sub-description p {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
 }
 
