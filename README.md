@@ -14,4 +14,9 @@ Um site que acessa e lista dados de uma API de vinhos
 * CSS
 * JavaScript
 
+<h2>Link do site :globe_with_meridians:</h2>
+
+[Link do site](https://gracious-swartz-c2814f.netlify.app/)
+
+
 
